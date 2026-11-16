@@ -1,50 +1,40 @@
-# Syed Zaman — Personal Website
+# Syed Zaman — Security Engineering Portfolio
 
-An original, modern personal portfolio for a Perth-based Cyber Security & SIEM Engineer. The design draws on the restrained typography, generous whitespace and polished visual rhythm of premium product websites, including Apple's, without using Apple's images, logos, fonts, or source code.
+A personal cybersecurity engineering portfolio published with GitHub Pages.
 
-## Site content
+## The concept
 
-- Intro and skill highlights drawn from Syed Zaman's 2026 CV
-- Microsoft Sentinel, LogRhythm, KQL, CrowdStrike, Azure DevOps, security operations and automation
-- Work examples (high-level, customer-confidentiality conscious)
-- Career experience at Protect+ / Kinetic IT, Water Corporation and WA Police
-- Certifications and education
-- Live links to LinkedIn: https://www.linkedin.com/in/syed-zaman-0a50a125/
+A deliberately technical yet refined design: midnight-slate, restrained mint accents, an illustrative security engineering workbench, and examples of real engineering work. Built to show the disciplines behind reliable security operations without pretending to display live customer telemetry.
 
-Contact details: no personal phone number, postal address or email is published. LinkedIn is the contact method.
+## What's included
 
-## Contents
+- Responsive portfolio for desktop, tablet and mobile
+- Interactive **Ingest → Detect → Respond** security engineering walkthrough (illustrative only)
+- Microsoft Sentinel, LogRhythm, KQL and detection-as-code with Azure DevOps
+- CrowdStrike, incident investigation, response support and workflow automation
+- Qualys, Tenable, vulnerability management and patching
+- Microsoft Entra ID, Active Directory, Group Policy and CrowdStrike Identity Protection
+- Professional experience with Kinetic IT / Protect+, Water Corporation and WA Police
+- Certifications, contact link to LinkedIn and concise technical examples
 
-- `index.html` — the complete one-page site
-- `styles.css` — design system, layout, motion and mobile view
-- `script.js` — progressive scroll reveals and copyright date
-- `favicon.svg` — original SZ mark
-- `.nojekyll` — for GitHub Pages
-- `robots.txt` — indexing instructions
+## Files
 
-No build system, dependencies, package installs, subscriptions or external fonts required. All assets are local.
+- `index.html` — Site structure and content
+- `styles.css` — Responsive styling
+- `script.js` — Small UI interactions
+- `favicon.svg` — Custom site mark
+- `robots.txt` — Search engine indexing
 
-## Preview
+No external libraries, tracking scripts, cookies or third-party fonts. The interactive code examples and interface are **demonstrations only**—not live SOC data. Customer-specific details are intentionally excluded.
 
-Double-click `index.html` to preview in Chrome, Edge, Safari or Firefox. All links work. For any updates, edit text in `index.html` and styling in `styles.css`.
+## Publish
 
-## Publish on GitHub Pages
+GitHub Pages: **Settings → Pages → Deploy from a branch → main → /(root)**.
 
-1. Log into GitHub as `syzhomelab`.
-2. Create a **public** repository named exactly `syzhomelab.github.io` at https://github.com/new.
-3. In that repository choose **Add file → Upload files** and upload the **contents** of this folder to the root, not the enclosing folder. Commit your upload. You may omit `.nojekyll` if your file browser hides hidden files.
-4. Open **Settings → Pages** and select **Deploy from a branch → main → /(root)**, then Save.
-5. Once GitHub finishes building, visit https://syzhomelab.github.io/.
+Target website: https://syzhomelab.github.io/
 
-Alternatively, after the repository exists, the connected GitHub app may be able to upload the text files directly provided it has write access.
+LinkedIn: https://www.linkedin.com/in/syed-zaman-0a50a125/
 
-## Before publishing
+## Change history
 
-- Confirm the experience descriptions, accreditation and clearance wording are still accurate.
-- The design publicly mentions employers, work history and government security clearance generally, but it does not disclose customer technical details or a clearance level.
-- No downloadable CV is included because the CV contains private contact information. You can add a sanitised public PDF later.
-- The "Present" date for Protect+ should be updated when applicable.
-
-## Built with
-
-Original semantic HTML, modern CSS and 13 lines of JavaScript, with no analytics, tracking scripts, external dependencies or cookies. Motion respects reduced-motion settings.
+Previous designs are preserved in Git history and can be restored.
