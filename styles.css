@@ -124,3 +124,6 @@ a:focus-visible{outline-color:#647f91}
 .contact-subline{color:#afbabc}
 @media(max-width:760px){.capability-footer{left:28px;right:28px;bottom:30px;gap:7px;font-size:9px}.feature-vulnerability,.feature-identity{min-height:495px}.feature-vulnerability .feature-content,.feature-identity .feature-content{padding-bottom:100px}.hero h1{white-space:normal}}
 @media(max-width:445px){.capability-footer{letter-spacing:.055em;font-size:8px}.feature-vulnerability,.feature-identity{min-height:540px}}
+
+/* Keep supporting text legible on the graphite detection card. */
+.feature-card.feature-detection p{color:#d0d7d9}
